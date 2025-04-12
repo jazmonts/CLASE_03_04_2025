@@ -14,6 +14,6 @@ function buscarRegalo(lista, regalo, indice = 0) {
 }
 
 // Ejemplo de uso
-const listaDeRegalos = ["muñeca", "carro", "pelota", "tren", "rompecabezas"];
-console.log(buscarRegalo(listaDeRegalos, "pelota")); 
-console.log(buscarRegalo(listaDeRegalos, "tablet")); 
+const listaDeRegalos = ["Muñeca", "Carro de juguete", "Rompecabezas", "Lego", "Pelota"];
+console.log(buscarRegalo(listaDeRegalos, "Lego")); 
+console.log(buscarRegalo(listaDeRegalos, "Camión")); 
